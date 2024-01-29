@@ -1,0 +1,196 @@
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+
+}
+
+
+.option-bar{
+width: 100%;
+height:80px;
+background-color: white;
+position: relative;
+text-decoration: none;
+}
+
+.btn{
+border-radius: 10px;
+padding: 3px;
+width: 110px; 
+height: 35px;
+margin: 5px;
+background-color: #d9d9d9;
+border: #ffdf99;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;               
+font-weight: bold;
+font-size: 17px;
+cursor: pointer;
+text-decoration: none;
+margin-top: 20px;
+margin-right: 20px;
+}
+.btn:hover{
+background-color:#ffcf66;
+box-shadow: 0 0 10px #595959;
+color: white;
+transform: scale(1.1);
+transition: 0.3s;}
+
+.btn2{
+border-radius: 10px;
+padding: 3px;
+width: 110px; 
+height: 35px;
+margin: 5px;
+background-color: #d9d9d9;
+border: #ffdf99;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;               
+font-weight: bold;
+font-size: 17px;
+cursor: pointer;
+text-decoration: none;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+
+.btn2:hover{
+background-color:#ffcf66;
+box-shadow: 0 0 10px #595959;
+color: white;
+transform: scale(1.05);
+transition: 0.3s;}
+
+
+.signin-img{
+height:30px;
+width:30px;
+position: relative;
+top: 10px;
+margin-left:730px; 
+
+}
+.search{
+padding-left: 20px;
+padding-top: 3px;
+border-radius: 20px;
+height: 35px;
+width: 400px;
+position: absolute;
+right: 300px;
+top:8px;
+background-color: #fff7e6;
+font-size: 19px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+cursor: pointer;
+
+}
+.search:hover{
+background-color:#e6e6e6;
+color: black;
+transition: 0.3s;
+box-shadow:0 0 10px #fff7e6;
+transform: scale(1.05);
+}
+.contact{
+position: absolute;
+margin-top: 12px;
+padding-left:4px ;
+padding-right:4px ;
+padding-top:2px ;
+padding-bottom:2px ;
+right: 100px;
+cursor: pointer;
+border-radius: 10px;
+background-color: #d9d9d9;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.contact:hover{
+background-color:#ffcf66;
+box-shadow: 0 0 10px #595959;
+color: white;
+transform: scale(1.05);
+transition: 0.3s;}
+
+.name{
+color: aqua;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 70px;
+text-shadow:0 0 10px #ffcf66;
+margin-left: 100px;
+}
+
+.tagline{
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+margin-left: 100px;
+
+}
+
+.container{
+background-color: black;
+height: 400px;width: 100%;
+position: absolute;
+}
+
+.icon{
+height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.tag{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+
+.card1{
+height: 350px;
+background-color: white;
+width: 300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 60px;
+flex-direction: row;
+
+border-radius: 20px;
+position: relative;
+left: 30px;
+bottom: 30px;
+}
+.card2{
+height: 350px;
+background-color: white;
+width: 300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 60px;
+flex-direction: row;
+position: relative;
+left: 1180px;
+top: -440px;
+border-radius: 20px;
+}
+
+.card3{
+height: 350px;
+background-color: white;
+width: 300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 60px;
+flex-direction: row;
+flex-direction: row;
+position: relative;
+left: 600px;
+top: -850px;
+border-radius: 20px;
+}
